@@ -1,0 +1,31 @@
+form {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  border-color: white;
+  background-color: white;
+}
+
+input, textarea {
+  margin-left: 33%;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:first-child {
+  margin-top: 50px;
+}
+
+body {
+  background-color: #EFC64C;
+}
+
+.button {
+  background-color: #EFC64C;
+  color: white;
+  margin-left: 220px;
+}
