@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>input form</title>
+
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<form method="post">
+		<input type="text" placeholder="Фамилия" size="22" maxlength="20" name="surname" required><br>
+		<input type="text" placeholder="Имя" size="22" maxlength="20" name="name" required><br>
+		<input type="email" placeholder="youremail@mail.ru" size="22" name="email" required><br>
+		<input type="text" placeholder="Город" size="22" maxlength="20" name="city" required><br>
+		<input type="tel" placeholder="+79999999999" size="22" maxlength="12" name="phone" pattern="+ [0-9]{11}"
+			required><br>
+		<textarea name="comment" required rows="5" maxlength="300">Ваш комментарий</textarea><br>
+		<input type="checkbox" id="checkbox" checked><label for="checkbox">Отметка получения уведомления по СМС</label><br>
+		<input type="submit" value="Отправить" class="button">
+	</form>
+</body>
+
+</html>
