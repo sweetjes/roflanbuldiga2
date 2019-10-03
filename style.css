@@ -3,17 +3,23 @@ form {
   padding: 10px;
   margin: 0 auto;
   width: 500px;
-  height: 500px;
+  height: 525px;
   border-radius: 50px;
   border-color: white;
   background-color: white;
 }
 
 input, textarea {
-  margin-left: 33%;
+  margin-left: 30%;
   margin-top: 15px;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 5px;
+  background-color: #E9EFF6;
+  border-color: white;
+  border-width: 0;
+  padding-left: 18px;
+  line-height: 20px;
+  width: 200px;
 }
 
 input:first-child {
@@ -27,5 +33,18 @@ body {
 .button {
   background-color: #EFC64C;
   color: white;
-  margin-left: 220px;
+  margin-left: 155px;
+  line-height: 25px;
+  width: 215px;
+  border-bottom: 4px solid #B78F24;
+}
+
+textarea {
+  resize: none;
+  color: #707981;
+}
+
+#checkbox {
+  margin-left: 155px;
+  width: 15px;
 }
