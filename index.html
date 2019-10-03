@@ -10,16 +10,15 @@
 </head>
 
 <body>
-	<form method="POST">
-		<input type="text" placeholder="Фамилия" size="20" maxlength="20" name="surname" required>
-		<input type="text" placeholder="Имя" size="20" maxlength="20" name="name" required>
-		<input type="email" placeholder="youremail@mail.ru" size="20" name="email" required>
-		<input type="text" placeholder="Город" size="20" maxlength="20" name="city" required>
-		<input type="tel" placeholder="+79999999999" size="20" maxlength="12" name="phone" pattern="+ [0-9]{11}" required>
-		<textarea name="comment" required rows="5" cols="22" maxlength="300">
-			Ваш комментарий
-		</textarea>
-		<input type="checkbox" name="checkbox" checked>Отметка получения уведомления по СМС
+	<form method="post">
+		<input type="text" placeholder="Фамилия" size="22" maxlength="20" name="surname" required><br>
+		<input type="text" placeholder="Имя" size="22" maxlength="20" name="name" required><br>
+		<input type="email" placeholder="youremail@mail.ru" size="22" name="email" required><br>
+		<input type="text" placeholder="Город" size="22" maxlength="20" name="city" required><br>
+		<input type="tel" placeholder="+79999999999" size="22" maxlength="12" name="phone" pattern="+ [0-9]{11}"
+			required><br>
+		<textarea name="comment" required rows="5" maxlength="300">Ваш комментарий</textarea><br>
+		<input type="checkbox" id="checkbox" checked><label for="checkbox">Отметка получения уведомления по СМС</label><br>
 		<input type="submit" value="Отправить" class="button">
 	</form>
 </body>
